@@ -197,3 +197,13 @@ button.action {
   margin: 0;
   font-size: 18px;
 }
+
+/* footer */
+
+footer {
+  background-color: #1f2937;
+  text-align: center;
+  color: #f9faf8;
+  font-size: 20px;
+  padding: 35px;
+}
