@@ -11,7 +11,7 @@ header {
   display: flex;
   align-items: center;
   background-color: #1f2937;
-  padding: 20px 20%;
+  padding: 20px 25%;
 }
 
 ul {
@@ -39,7 +39,7 @@ a {
 section.hero {
   background-color: #1f2937;
   display: flex;
-  padding: 50px 20%;
+  padding: 50px 25%;
   flex: 1;
   align-items: center;
   justify-content: space-between;
@@ -57,11 +57,12 @@ section.hero {
 }
 
 button {
-  border-radius: 5px;
+  border-radius: 8px;
   padding: 7px 30px;
   color: #f9faf8;
   background-color: #3882f6;
   font-weight: bold;
+  font-size: 18px;
 }
 
 button.hero {
@@ -99,12 +100,16 @@ p.credit {
 }
 
 /* info section */
+section.info {
+  padding-bottom: 100px;
+}
+
 .info .title {
   font-size: 36px;
   font-weight: 1000;
   color: #1f2937;
   text-align: center;
-  margin: 46px auto;
+  margin: 55px auto;
 }
 
 .info .container {
@@ -160,4 +165,35 @@ section.quote {
   font-style: normal;
   text-align: end;
   margin-right: 60px;
+}
+
+/* action section  */
+section.action {
+  margin: 100px 25%;
+  padding: 40px;
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 7px;
+}
+
+button.action {
+  border: 3px solid #f9faf8;
+}
+
+.action .text {
+  display: inline-block;
+}
+
+.action .title {
+  font-weight: bold;
+  color: #f9faf8;
+  font-size: 25px;
+}
+
+.action p {
+  color: #e5e7eb;
+  margin: 0;
+  font-size: 18px;
 }
