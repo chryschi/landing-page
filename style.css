@@ -31,7 +31,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: white;
+  color: #e5e7eb;
   font-size: 18px;
 }
 
@@ -92,4 +92,33 @@ p.credit {
   justify-content: center;
   flex: 1;
   align-items: flex-end;
+}
+
+/* info section */
+.info .title {
+  font-size: 36px;
+  font-weight: 1000;
+  color: #1f2937;
+  display: flex;
+  justify-content: center;
+}
+
+.info .container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 30px;
+}
+
+.info .card {
+  max-width: 150px;
+  text-align: center;
+  margin: 0;
+}
+
+.image-dummy {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  margin: 0 auto;
 }
