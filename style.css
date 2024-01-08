@@ -47,10 +47,13 @@ a {
 section.hero {
   background-color: #1f2937;
   display: flex;
-  padding: 50px 25%;
-  flex: 1;
-  align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  padding: 40px;
+  gap: 20px;
+}
+
+.left-side {
+  max-width: 500px;
 }
 
 .hero-main {
@@ -62,6 +65,10 @@ section.hero {
 .hero-secondary {
   font-size: 18px;
   color: #e5e7eb;
+}
+
+.hero img {
+  border-radius: 8px;
 }
 
 button {
@@ -77,10 +84,8 @@ button.hero {
   border: none;
 }
 
-.left-side {
-  flex: 0 1 auto;
-  width: 500px;
-  padding: 5px;
+button:hover {
+  cursor: pointer;
 }
 
 img {
@@ -95,6 +100,10 @@ img {
   font-size: 12px;
 }
 
+.credit a {
+  display: inline;
+}
+
 p.credit {
   margin-top: 7px;
 }
@@ -103,7 +112,7 @@ p.credit {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  flex: 1;
+  /* flex: 1; */
   align-items: flex-end;
 }
 
