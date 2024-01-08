@@ -209,6 +209,8 @@ button.action {
 /* footer */
 
 footer {
+  display: flex;
+  justify-content: center;
   background-color: #1f2937;
   text-align: center;
   color: #f9faf8;
