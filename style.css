@@ -29,13 +29,19 @@ ul {
   font-weight: 600;
 }
 
-a {
+a.logo {
   text-decoration: none;
   color: #e5e7eb;
   font-size: 18px;
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
 }
 
 .logo img {
@@ -100,10 +106,6 @@ img {
   font-size: 12px;
 }
 
-.credit a {
-  display: inline;
-}
-
 p.credit {
   margin-top: 7px;
 }
@@ -164,6 +166,10 @@ section.quote {
   padding: 120px 0;
 }
 
+.quote a {
+  color: #1f2937;
+}
+
 .quote .container p {
   font-style: italic;
   font-weight: light;
@@ -182,6 +188,7 @@ section.quote {
   font-style: normal;
   text-align: end;
   margin-right: 60px;
+  margin-top: 20px;
 }
 
 /* action section  */
